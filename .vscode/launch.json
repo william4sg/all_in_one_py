@@ -12,6 +12,17 @@
                 "--output_file","novels/dpcq.json",
                 "--novel_name","斗破苍穹"
             ]
-        }
+        },
+        {
+            "name": "llama3 合并json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/merge_json.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--json_dir","novels",
+                "--output_file","dataset/merged.json"
+            ]
+        },
     ]
 }
