@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python 调试程序: 当前文件",
+            "name": "llama3 数据集制作",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/txt2json.py",
@@ -10,7 +10,7 @@
             "args": [
                 "--input_file","novels/dpcq.txt",
                 "--output_file","novels/dpcq.json",
-                "--novel_name","舞动"
+                "--novel_name","斗破苍穹"
             ]
         }
     ]
